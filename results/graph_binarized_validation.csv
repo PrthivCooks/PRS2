@@ -1,0 +1,2 @@
+experiment,auprc,auroc,prevalence,topk_dice
+binarized_topology_only,0.4629217410557608,0.8768673476177802,0.07142857142857142,0.4843537414965987

@@ -1,0 +1,23 @@
+{
+  "test_gate_still_locked_before_final_reporting": true,
+  "train_val_test_subjects_disjoint": true,
+  "A_imputer_scaler_fit_train_only": true,
+  "B_imputer_scaler_fit_Bpresent_train_only": true,
+  "missing_modality_strategy_selected_on_validation_only": true,
+  "graph_model_family_selected_without_test_labels": true,
+  "hop_depth_audited_on_validation_only": true,
+  "edge_sparsification_validation_only": true,
+  "base_single_vs_ensemble_selected_on_validation": true,
+  "confidence_evidence_checked_on_validation": true,
+  "discordant_cases_examined_before_fusion": true,
+  "baseline_family_audited_on_validation": true,
+  "stacker_base_predictions_are_train_subject_grouped_OOF": true,
+  "stacker_oof_base_kind_matches_deployment_base_kind": true,
+  "stacker_hyperparameter_selected_on_train_only": true,
+  "fusion_family_and_params_selected_on_validation": true,
+  "fusion_score_scaling_parameters_not_fit_on_test": true,
+  "calibration_diagnostic_subject_grouped_validation_only": true,
+  "clinical_threshold_selected_on_validation_only": true,
+  "outcome_and_resection_not_used_as_model_inputs": true,
+  "true_k_used_only_in_metrics_or_posthoc_error_analysis": true
+}

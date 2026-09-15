@@ -1,0 +1,12 @@
+{
+  "n": 28,
+  "n_seizure_free": 20,
+  "n_not_seizure_free": 8,
+  "mean_dice_seizure_free": 0.3665682317753418,
+  "mean_dice_not_seizure_free": 0.3167569509674773,
+  "mean_difference": 0.04981128080786451,
+  "mean_difference_ci_low": -0.07508572240923844,
+  "mean_difference_ci_high": 0.16728986494055345,
+  "mannwhitney_p": 0.38684108921476135,
+  "rank_biserial": 0.21875
+}

@@ -1,0 +1,50 @@
+{
+  "features": "A+B; A train-median+missingness; B train-fitted handling according to frozen missing strategy",
+  "missing_strategy": "A_fallback",
+  "graph": "real adjacency; D^-1/2(A+I)D^-1/2; one hop; residual concat [X,AX]",
+  "frozen_depth": 1,
+  "classifier": "LogisticRegression(class_weight='balanced', C=1.0)",
+  "base_kind": "ensemble10",
+  "smart_family": "stacked_lr",
+  "smart_scale": "train_oof_meta",
+  "smart_params": {
+    "C": 0.1,
+    "features": [
+      "model_score",
+      "sim_score",
+      "sim_confidence",
+      "modB_available",
+      "abs_model_sim_gap",
+      "model_x_sim",
+      "model_x_conf",
+      "sim_x_conf"
+    ]
+  },
+  "stacker_C": 0.1,
+  "stacker_features": [
+    "model_score",
+    "sim_score",
+    "sim_confidence",
+    "modB_available",
+    "abs_model_sim_gap",
+    "model_x_sim",
+    "model_x_conf",
+    "sim_x_conf"
+  ],
+  "stacker_oof_base_kind": "ensemble10",
+  "score_scalers_fit_on": "train OOF meta scaler",
+  "descriptive_threshold_from_validation": 0.412060946025154,
+  "calibration_decision": "retain raw frozen fusion scores; OOF calibration is diagnostic only without an external calibration cohort",
+  "resample_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+}

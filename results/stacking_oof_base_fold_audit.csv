@@ -1,0 +1,6 @@
+fold,n_train_subjects,n_heldout_subjects,base_kind,n_base_models
+0,67,17,ensemble10,10
+1,67,17,ensemble10,10
+2,67,17,ensemble10,10
+3,67,17,ensemble10,10
+4,68,16,ensemble10,10
